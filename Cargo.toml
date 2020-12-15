@@ -18,8 +18,7 @@ default = [
 ]
 
 [dependencies]
-bevy = {git = "https://github.com/bevyengine/bevy", rev="d2e4327b14956b5028838fda538d45d2300e73f9", default-features = false}
-
+bevy = {git = "https://github.com/bevyengine/bevy", rev="2e2423139e0cd8efda3aa0d474d3eb231dad566b", default-features = false}
 winit = {version = "0.24.0", features = ["web-sys"], default-features = false}
 regex = "1.4"
 cfg-if = "1.0.0"
